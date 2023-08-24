@@ -1,0 +1,65 @@
+[
+  {
+    "model": "catalog.category",
+    "pk": 17,
+    "fields": {
+      "name": "Одежда",
+      "description": "Верхняя одежда"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 18,
+    "fields": {
+      "name": "Электроника",
+      "description": "Все, что можно зарядить от розетки"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 19,
+    "fields": {
+      "name": "Книги",
+      "description": "Бумажные с твердой обложкой"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 10,
+    "fields": {
+      "name": "Смартфон",
+      "description": "Звонить и писать",
+      "preview": "",
+      "category": 18,
+      "price": 15000,
+      "created": "2023-08-24T09:31:55.368Z",
+      "last_upd": "2023-08-24T09:31:55.368Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 11,
+    "fields": {
+      "name": "Куртка",
+      "description": "Удобная и теплая",
+      "preview": "",
+      "category": 17,
+      "price": 5000,
+      "created": "2023-08-24T09:32:17.200Z",
+      "last_upd": "2023-08-24T09:32:17.200Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 12,
+    "fields": {
+      "name": "Сказки народов мира",
+      "description": "Интересные сказки",
+      "preview": "",
+      "category": 19,
+      "price": 750,
+      "created": "2023-08-24T09:32:41.578Z",
+      "last_upd": "2023-08-24T09:32:41.578Z"
+    }
+  }
+]
