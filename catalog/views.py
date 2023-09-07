@@ -11,7 +11,7 @@ def home(request):
     return render(request, 'catalog/home.html', context)
 
 
-def contacts(request):
+def contacts(request, id):
     product = Product.objects.get(pk=id)
     context = {
         'object': product,
