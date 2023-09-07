@@ -1,5 +1,5 @@
 {% extends 'catalog/base.html' %}
-{% load tags_filters %}
+{% load my_tags %}
 
 {% block content %}
 
@@ -18,15 +18,10 @@
                         </tr>
                         <tr>
                             <td class="w-25">Стоимость</td>
-                            <td>{{ object.price }}/td>
-                        </tr>
+                            <td>{{ object.price }}
                         <tr>
-
-                            <td class="w-25">Стоимость</td>
-                            <td>{{ object.price }}/td>
-                        </tr>
                     </table>
                 </div>
-            </div>
+
         </div>
 {% endblock %}
